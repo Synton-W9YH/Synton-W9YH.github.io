@@ -1,6 +1,8 @@
+---
 layout: page
 title: "readme-stuff"
 permalink: /README
+---
 
 # Synton Page
 
