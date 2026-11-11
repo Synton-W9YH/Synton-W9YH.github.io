@@ -37,7 +37,7 @@ The W9YH Repeater is our local repeater hosted east of the Siebel Center for Com
 
 | Item             | Value       |
 | ---------------- | ----------- |
-| Output Frequency | 446.525 MHz |
+| Output Frequency | 444.525 MHz |
 | Input Offset     | +5.000 MHz  |
 | PL Tone          | 162.2 Hz    |
 
