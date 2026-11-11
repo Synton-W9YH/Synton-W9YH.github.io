@@ -21,4 +21,16 @@ cp "$VAULT/quartz.config.yaml" "$QUARTZ_DIR/quartz.config.yaml"
 cd "$QUARTZ_DIR"
 npm ci --no-audit --no-fund
 npx quartz plugin install --from-config
+
+# @quartz-themes/core lazily installs the selected theme mid-build, which fails to load on a
+# fresh install. Pre-install it so the build doesn't depend on that.
+THEME="$(node -e '
+  const YAML = require("yaml");
+  const cfg = YAML.parse(require("fs").readFileSync("quartz.config.yaml", "utf8"));
+  const p = (cfg.plugins || []).find((p) => p.source === "@quartz-themes/core" && p.enabled !== false);
+  if (p) console.log((p.options && p.options.theme) || "default");
+')"
+if [ -n "$THEME" ] && [ ! -d "node_modules/@quartz-themes/$THEME" ]; then
+  npm install --no-save --no-audit --no-fund "@quartz-themes/$THEME"
+fi
 npx quartz build -d "$VAULT" -o "$VAULT/public" "$@"
