@@ -1,4 +1,4 @@
-# Synton
+# Synton Ham Radio Guide
 
 This repo is an [Obsidian](https://obsidian.md) vault **and** a [Quartz 5](https://quartz.jzhao.xyz) site,
 published to <https://synton-w9yh.github.io>.

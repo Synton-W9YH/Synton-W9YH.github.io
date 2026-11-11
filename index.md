@@ -1,10 +1,5 @@
 ---
-title: Synton
+title: Ham Radio Guide
 ---
 
-Welcome! This site is an [Obsidian](https://obsidian.md) vault published with [Quartz](https://quartz.jzhao.xyz).
-
-- [[about]]
-- [[thing]]
-- [[meow]]
-- [[Welcome]]
+Welcome! This is a ham radio guide, written as an [Obsidian](https://obsidian.md) vault and published with [Quartz](https://quartz.jzhao.xyz).

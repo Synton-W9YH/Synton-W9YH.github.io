@@ -1,7 +1,7 @@
 # Quartz 5 site config. The Quartz framework itself is fetched at build time
 # (see .github/workflows/deploy.yml and scripts/build.sh); this repo is the content.
 configuration:
-  pageTitle: Synton
+  pageTitle: Synton Ham Radio Guide
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
