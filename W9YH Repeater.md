@@ -46,4 +46,4 @@ The W9YH Repeater is our local repeater hosted east of the Siebel Center for Com
 
 ## See also
 
-- [Area repeaters]([https://www.arrl.org](https://w9yh.ece.illinois.edu/repeaters.html))
+- [Area repeaters](https://w9yh.ece.illinois.edu/repeaters.html)
