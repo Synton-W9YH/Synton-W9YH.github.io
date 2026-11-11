@@ -17,6 +17,7 @@ configuration:
     - public
     - scripts
     - README.md
+    - CONTRIBUTING.md
     - quartz.config.yaml
   theme:
     fontOrigin: googleFonts
