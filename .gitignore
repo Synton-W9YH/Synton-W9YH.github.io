@@ -1,6 +1,11 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-Gemfile.lock
+# Obsidian per-device state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Local Quartz build (see README)
+.quartz-build/
+public/
+
+.DS_Store

@@ -1,7 +1,5 @@
 ---
-layout: page
 title: THing Test
-permalink: /thing/
 ---
 
 This is the base rganization

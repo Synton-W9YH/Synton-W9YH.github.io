@@ -1,7 +1,5 @@
 ---
-layout: page
 title: MEOW!
-permalink: /thing2/meow/
 ---
 
 
